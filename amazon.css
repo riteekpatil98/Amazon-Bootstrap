@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*------------------------ Navigation Part Css------------ */
+.form{
+   margin-left: 160px;
+  
+   border: 1px ;
+   background: white;
+   border-radius: 8px;
+     }
+.nav-item.all a{
+    color: #0f1111;
+    background:rgb(215, 208, 208) ;
+    border-top-left-radius: 8px;
+     border-bottom-left-radius: 8px;
+   
+}
+
+.search-input {
+  width: 600px;
+  border: none;
+  background-color:white;
+ 
+
+  
+}
+
+.button{
+    border: none;
+}
+ .search-input::placeholder{
+        color: black 
+        
+    }
+    .btn-outline-success{
+         color: black;
+         background-color:#FFA724;
+         border-top-left-radius: 0px;
+         border-bottom-left-radius: 0px;
+
+    }
+    /* .language.dropdown-menu{
+       
+        background-color: white
+    } */
+ .nav-link.language::after {
+  border-top-color: white;
+  
+  
+}
+
+/* ------------------Nav Brad 2----------------------- */
+.nav-bar2 ul{
+  box-sizing: border-box;
+  padding: 9px;
+  margin-bottom: 0px;
+
+}
+.ul-List{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 13px;
+  background-color: rgb(29, 29, 37);
+  font-family: "Poppins", sans-serif;
+  
+  
+}
+.ul-List li a{
+ color: white;
+ text-decoration: none;
+ 
+ 
+}
+.ul-List a select{
+  background-color: rgb(29, 29, 37);
+  color: white;
+  border: none
+}
+/* -------------------------Card Section--------------------------- */
+.Main-section-first{
+  background:#7fc8d9
+}
+
+.card-special{
+  margin-top: 40px;
+    
+    transition: 1.02s ease-in-out;
+}
+.card-special:hover{
+  transform: scale(1.05);
+
+}
+.card-special h5, .card-special p{
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 16px;
+  padding: inherit;
+  
+
+}
+.card-group .card{
+  border: none;
+  margin: 10px;
+  margin-bottom: 0px;
+ 
+
+}
+h6{
+
+}
+/* ----------------Img- Height class------------- */
+.img-hei-wid{
+  height: 35%;
+  width: 80%;
+  
+}
+/*-------------------- card section Second----------- */
+.section-2nd{
+
+  background-color: rgb(141, 192, 174);
+  
+}
+.second-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ gap: 35px;
+}
+.sec-2nd-card{
+  border: none;
+}

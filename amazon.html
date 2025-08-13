@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>amazon.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="shortcut icon" href="main-page-assests/fevicon-amazon.png" type="image/x-icon">
+    <link rel="stylesheet" href="amazon.css">
+</head>
+
+<body>
+    <!------------------------Header Section And Nav Bar----------------- -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-1.5" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="main-page-assests/amazon.in-img.png" alt="" srcset="" width="90"
+                    height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item d-flex">
+                        <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg><span class="fst-normal" style="font-size: 12px;">
+                                Update
+                                Location</span></a>
+                    </li>
+                    <li class="nav-item form ">
+                        <form class="d-flex" role="search ">
+                    <li class="nav-item dropdown all">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            All
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <input class="form-control me-2 search-input " type="search" placeholder="Search Amazon.in"
+                        aria-label="Search" class="form-control w-100" />
+                    <button class="btn btn-outline-success button" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg> </button>
+                    </form>
+                    </li>
+
+                    <li class="nav-item">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle language" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="main-page-assests/india flag.jpg" alt="" srcset="" width="20px" height="15px">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item" style="font-size: 15px; ">
+                        <a class="nav-link" href="#">Sign,in Account & List</a>
+                    </li>
+                    <li class="nav-item" style="font-size: 15px; ">
+                        <a class="nav-link" href="#">Return Orders</a>
+                    </li>
+                    <li class="nav-item m-l-5">
+                        <button type="button" class="btn btn-dark position-relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cart2" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                            </svg>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                99+
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                            <span>Cart</span>
+                        </button>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-----------------------nav Bar part 2------------------>
+    <div class="nav-bar2">
+        <Ul class="ul-List">
+            <li> <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>All</a></li>
+            <li> <a href="">Fresh
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+
+                </a></li>
+            <li><a href="">Mx Player</a></li>
+            <li> <a href="">Sell</a></li>
+            <li><a href="">BestSeller</a></li>
+            <li><a href="">Mobiles</a></li>
+            <li><a href="">Today's Deals</a></li>
+            <li><a href="">Prime
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </a></li>
+            <li><a href="">Customer Service</a></li>
+            <li> <a href="">Fashion</a></li>
+            <li><a href="">New Release</a></li>
+            <li><a href="">Amazon Pay</a></li>
+            <li> <a href="">Electronics</a></li>
+            <li><a href="">Home & Kitchen</a></li>
+            <li><a href="">Computers</a></li>
+            <li> <a href="">Car & MotorBikes</a></li>
+            <li><a href="">Books</a></li>
+
+        </Ul>
+    </div>
+    </div>
+
+    <!-- ------------------------Sliding Section-------------- -->
+    <div id="carouselExampleInterval" class="carousel slide mt-0" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="main-side-img/slide-1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="main-side-img/slide-2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="main-side-img/slide-3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="main-side-img/slide-4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="main-side-img/slide-5.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="main-side-img/slide-6.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ---------------------Main - Section First----------------- -->
+    <section class="Main-section-first">
+        <!-------------------------- Item section Part 1------------------------- -->
+        <div class="container text-center">
+
+            <div class="row">
+
+                <!-- ----------------Card Colum 1-------- -->
+                <div class="col-lg-3 col-md-6 col-12 card-special">
+                    <h5>Appliances for your home | Up <br>to 55% off</h5>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/ac.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Air Conditioners</h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/refreg.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Refrigerators</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------------------------------------------------- -->
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/Microwase.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Microwaves</h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/Washing-Machine.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Washing Machine</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text"><small class="text-body-secondary"><a href="http://">see more..</a></small></p>
+                </div>
+                <!-- ----------------Card Colum 2-------- -->
+                <div class="col-lg-3 col-md-6 col-12 card-special">
+                    <h5>Starting ₹199 | Amazon Brands & more</h5>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/col-2-1.jpg" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Starting ₹199 | BedSheets</h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/col-2-2.jpg" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Starting ₹199 | Curtains</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------------------------------------------->
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/col-2-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Minimum 40% of </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/col-2-4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Up to 60% off Home decor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text"><small class="text-body-secondary"><a href="http://">see more..</a></small></p>
+                </div>
+                <!-- ----------------Card Colum 3-------- -->
+                <div class="col-lg-3 col-md-6 col-12 card-special">
+                    <h5>Up to 75% off | Get casual ready from Small Businesses</h5>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/cloth-1.png" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Festive Charm</h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/cloth-2.png" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Formal Summer Dress</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------------------------------------------- -->
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/cloth-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Mens' Ti-Shirt & more..</h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/cloth-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Classy casual for Women's</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text"><small class="text-body-secondary"><a href="http://">see more..</a></small></p>
+
+                </div>
+                <!-- ----------------Card Colum 4-------- -->
+                <div class="col-lg-3 col-md-6 col-12 card-special">
+                    <h5>Starting ₹149 | Headphones | | Up to 60% off</h5>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/HP-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Boat BassHeads 100 </h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/HP-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">boAt Airdopes 311 Pro</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------------------------------->
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="item-img-part-1/HP-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Noise Airwave Headphones</h6>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="item-img-part-1/HP-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Noise Two Wireless</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text"><small class="text-body-secondary"><a
+                                href="https://www.amazon.com/s?k=headphones&crid=2022VP291NNCO&sprefix=headphones%2Caps%2C771&ref=nb_sb_noss_1"
+                                target="_blank">see
+                                more..</a></small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------- - Section 2nd----------------------- -->
+    <section class=" text-center section-2nd ">
+        <div class="second-section row ">
+
+
+            <!-- --------------card one --------------->
+            <div class="card col-12 col-md-6 col-lg-3 sec-2nd-card " style="width: 18rem;">
+                <a
+                    href="https://www.amazon.com/Rainbocorns-Eggzania-Surprise-Unboxing-Imaginary/dp/B0CD2YTCNC/ref=sr_1_24?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&dib=eyJ2IjoiMSJ9.big83wM4FWSB_fSZ2ymwqzskNodNPakG49cjc49H8oJ5mEKJuzrc13vN9SNiu7gLZBmQMjwjPQuCyXNI5aIPgj5JNiQ0n1qcB75YNtMHhvxi3FBVyO3QkZbx4kZgIhjHyoF_Cip0VebMi4v49elkG3y3z4AjCiBEbZ5pRXe4eFBtLqh2QmTOPjyyQP3EqfK5oRUmSZMYsz-_BuHKZDeenkmJwbKgiycRQRiBQcCslzo8Wgh8_x6uiapYOJD4ais2H6zl2AmYVW1nmelJlc-Tr8sVf2m9TU1x900Gw8PKdSY.Bgop-5tQ9VczxkRQwA8MY0VgsP7NgLo0D33-BilPXqI&dib_tag=se&keywords=toys&pd_rd_r=be6df389-491e-4ffe-bd4c-160e7ec3eaa3&pd_rd_w=kKBe8&pd_rd_wg=3eu5A&qid=1749987748&refinements=p_36%3A-2500&sr=8-24&th=1"><img
+                        src="item-img-part-2/prt-2-1.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text">
+                    <h6>Rainbocorns Eggzania Mini Mania Panda Plush Surprise Unboxing with Animal Soft Toy, </h6>
+                    </p>
+                </div>
+            </div>
+            <!-- --------------card Two --------------->
+            <div class="card col-12 col-md-6 col-lg-3 sec-2nd-card" style="width: 18rem;">
+                <a
+                    href="https://www.amazon.com/Smartphone-Unlocked-Processor-Manufacturer-Warranty/dp/B0DP3G4GVQ/ref=sr_1_2?_encoding=UTF8&content-id=amzn1.sym.69a935ef-cee6-41d5-aefa-c36bfc7821bc&dib=eyJ2IjoiMSJ9.l3KOeB1F_crIsGAENwl-TOioKZPTDNAQrxVeQpqPaW7TuUBqd1aOE-EhxzEuKfqk8G7-jrCZXCTk6TaWtwaiiUSDnz_g7Yr397f2y9Qj4W8SoAFqsJrlQGb7s3U6f3i63XbDAzM8tcF8LfnRlvOZAUEnbIQLZhUmJRmbtcY5DUe_V-hC--jn6lUFKN9T2v1A1cHbA6UhuBCkGjuwqI3ag0uGEP8ZT-AU7BszLwrHcWE.Zyibuaxe0uaFLgPXjNjx6vbJPwGok1PW-ieWDMHPdEk&dib_tag=se&keywords=smartphones&pd_rd_r=0591a5d5-2944-44cb-87ad-4aeb31b1990a&pd_rd_w=R7iI1&pd_rd_wg=31RdX&qid=1749987854&sr=8-2&th=1"><img
+                        src="item-img-part-2/prt-2-2.webp" class="card-img-top" alt="..."></a>
+
+                <div class="card-body">
+                    <p class="card-text">
+                    <h6>Samsung Galaxy S25 Ultra Cell Phone, 512GB AI Smartphone,Unlocked Android</h6>
+                    </p>
+                </div>
+            </div>
+            <!-- --------------card Three --------------->
+            <div class="card col-12 col-md-6 col-lg-3 sec-2nd-card" style="width: 18rem;">
+                <a
+                    href="https://www.amazon.com/stores/page/A29243E5-37F0-4858-ADDB-40E17FD781B7/?_encoding=UTF8&store_ref=SB_A082439038KKGQZCGGMXC-A00565453VPM05GZRZN0W&pd_rd_plhdr=t&aaxitk=216891f036852d1107487dd5343075a7&hsa_cr_id=0&lp_asins=B0DLBV145M%2CB0DLBVHSLD%2CB0DLBX4B1K&lp_query=laptops&lp_slot=desktop-hsa-3psl&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=XwD46&content-id=amzn1.sym.5594c86b-e694-4e3e-9301-a074f0faf98a%3Aamzn1.sym.5594c86b-e694-4e3e-9301-a074f0faf98a&pf_rd_p=5594c86b-e694-4e3e-9301-a074f0faf98a&pf_rd_r=S4JPX4RTWAH34FDVWN9F&pd_rd_wg=r2EqU&pd_rd_r=a5778c4a-1474-41df-80c2-3fe5ee5097b0"><img
+                        src="item-img-part-2/prt-2-5.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text">
+                    <h6>Apple 2024 iMac All-in-One Desktop Computer with M4 chip with 8-core CPU</h6>
+                    </p>
+                </div>
+            </div>
+            <!-- --------------card Four --------------->
+            <div class="card col-12 col-md-6 col-lg-3 sec-2nd-card" style="width: 18rem;">
+                <a
+                    href="https://www.amazon.com/BS-MALL-Brushes-Synthetic-Foundation-Concealers/dp/B0BNZWH3X1/ref=sr_1_2_sspa?_encoding=UTF8&content-id=amzn1.sym.cfffd636-af52-48ff-a5dc-4f273c40ec67&dib=eyJ2IjoiMSJ9.vtdQyBU-FC5Y36UK5HJkFtx57rPUOLrUKSnZCjuZTnq8l7dyVKLrY9SHeZnKlgqy6VVBM-YqsuGs-dFAotAMnwJ4-Dqk78q8pY9f4_z4arlS3KtV1e5ETWxZdUbe8x1EXBcCbRATGDbOX0tmXMpYTnGAIWzwS7LsMEH6NJfIIb8joup3vY_2iAbgl_Vdx5DyJ8v4WG_pHez7jUYeKhwFHgTBnK9Gy1CnBhtsaLrk2eAgG6jfXLqq5_lnB76pN0irk11EDCR7Tz8D53b-WUiKVC0zjpfbS-II6MMD9IRNrh4.YbXiKSzPkhF6YKFDVicYAUgKJDnm9ifHWRj4p5tHP4s&dib_tag=se&keywords=makeup%2Bbrushes&pd_rd_r=0591a5d5-2944-44cb-87ad-4aeb31b1990a&pd_rd_w=cg1WU&pd_rd_wg=31RdX&qid=1749988008&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"><img
+                        src="item-img-part-2/prt-2-4.webp" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text">
+                    <h6>BS-MALL Makeup Brushes Premium Synthetic Foundation Powder Concealers Eye</h6>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
